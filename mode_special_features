@@ -1,0 +1,3 @@
+SELECT mode() WITHIN GROUP (ORDER BY special_features)
+AS modal_value
+FROM film;
