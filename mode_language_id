@@ -1,0 +1,3 @@
+SELECT mode() WITHIN GROUP (ORDER BY language_id)
+AS modal_value
+FROM film;
