@@ -1,0 +1,11 @@
+SELECT A. country,
+SUM(F. amount)
+FROM country A
+INNER JOIN city B ON A.country_id = B.country_id
+INNER JOIN address C ON B.city_id = C.city_id
+INNER JOIN customer D ON C.address_id = D.address_id
+INNER JOIN rental E ON D. customer_id = E.customer_id
+INNER JOIN payment F ON E. rental_id = E.rental_id
+GROUP BY A. country
+ORDER BY SUM(F. amount) DESC
+LIMIT 10;
