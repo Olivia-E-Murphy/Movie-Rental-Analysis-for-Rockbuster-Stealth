@@ -3,10 +3,33 @@ Achievement 3 of CareerFoundry's curriculum, which calls to use SQL to solve bus
 
 The "Rockbuster Stealth Data Analysis Project" asks students to imagine they are a data analyst in the business intelligence department. As an analyst in the business intelligence department, the data analysis student is asked to provide inventory/customer insights with SQL after loading the company's data into the relational database management system. 
 
-Key questions include: Which movies contributed the most/least to revenue gain?; What was the average rental duration for all videos?; Which customers are Rockbuster companies based in?; Where are customers with a high lifetime value based?; Do sales figures vary between geographic regions?
- 
-Project deliverables: a presentation for business managers, documentation in Excel for technical colleagues, a data dictionary for technical colleagues.
+Key questions include: 
+>Which movies contributed the most/least to revenue gain?
 
-Tools used for project: PostgreSQL Database, DbVisualizer, pg4Admin, Tableau
+>What was the average rental duration for all videos?
+
+>Which customers are Rockbuster companies based in?
+
+>Where are customers with a high lifetime value based?
+
+>Do sales figures vary between geographic regions?
+ 
+Project deliverables: 
+>a presentation for business managers
+
+>documentation in Excel for technical colleagues
+
+>a data dictionary for technical colleagues.
+
+Tools used for project: 
+>PostgreSQL Database
+
+>DbVisualizer
+
+>pg4Admin
+
+>SQL
+
+>Tableau
 
 
