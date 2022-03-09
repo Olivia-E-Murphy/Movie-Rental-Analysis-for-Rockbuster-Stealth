@@ -1,0 +1,4 @@
+SELECT MIN(create_date) as min_create_date,
+MAX(create_date) max_create_date,
+mode() WITHIN GROUP (ORDER BY create_date) AS modal_value
+FROM customer;
