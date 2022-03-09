@@ -1,0 +1,2 @@
+SELECT mode() WITHIN GROUP (ORDER BY store_id) AS modal_value
+FROM customer;
