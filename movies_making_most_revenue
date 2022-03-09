@@ -1,0 +1,9 @@
+SELECT A. title,
+SUM(D.amount) AS revenue
+FROM film A
+INNER JOIN inventory B ON A.film_id = B.inventory_id
+LEFT JOIN rental C on B.inventory_id = C.inventory_id
+LEFT JOIN payment D on C. rental_id = D.rental_id
+WHERE D.amount IS NOT NULL
+GROUP BY A. title
+ORDER BY SUM(D.amount) DESC;
