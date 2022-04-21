@@ -1,3 +1,2 @@
-SELECT mode() WITHIN GROUP (ORDER BY rating)
-AS modal_value
+SELECT mode() WITHIN GROUP (ORDER BY rating) AS modal_value
 FROM film;
