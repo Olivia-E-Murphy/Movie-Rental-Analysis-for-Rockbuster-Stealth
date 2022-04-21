@@ -1,4 +1,4 @@
 SELECT MIN(last_update) AS min_last_update,
-MAX(last_update) AS max_last_update,
-mode() WITHIN GROUP (ORDER BY last_update) AS modal_value
+       MAX(last_update) AS max_last_update,
+       mode() WITHIN GROUP (ORDER BY last_update) AS modal_value
 FROM film;
