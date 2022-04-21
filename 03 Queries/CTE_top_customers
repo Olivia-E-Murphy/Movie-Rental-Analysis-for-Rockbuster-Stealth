@@ -31,4 +31,4 @@ LEFT JOIN city C ON B.city_id = C.city_id
 LEFT JOIN country D ON C.country_id = D.country_id
 GROUP BY D.country
 ORDER BY top_customer_count DESC
-LIMIT 5
+LIMIT 5;
