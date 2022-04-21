@@ -1,4 +1,4 @@
 SELECT MIN(rental_duration) as min_rental_duration,
-MAX(rental_duration) AS max_rental_duration,
-AVG(rental_duration) AS avg_rental_duration
-FROM film
+       MAX(rental_duration) AS max_rental_duration,
+       AVG(rental_duration) AS avg_rental_duration
+FROM film;
