@@ -20,4 +20,4 @@ WHERE country in ('India', 'China', 'United States', 'Japan', 'Mexico', 'Brazil'
   ORDER BY SUM(amount) DESC
   LIMIT 5)
 SELECT avg(total_amount_paid)
-FROM average
+FROM average;
