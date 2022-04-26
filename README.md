@@ -3,7 +3,7 @@ Background: Rockbuster Stealth LLC is a movie rental company seeking to use its 
 
 Context: This project was completed as part of the CareerFoundry's curriculum. 
 
-Topics covered were relational databases, SQL, data querying, filtering data, cleaning and summarizing data, joining tables, subqueries, common tables expressions. 
+Topics covered were relational databases, SQL, data querying, filtering data, cleaning and summarizing data, joining tables, subqueries, and common table expressions. 
 
 This knowledge was used to solve business questions for Rockbuster Stealth LLC, a fictional movie rental company.
 
