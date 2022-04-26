@@ -1,7 +1,11 @@
 # RockbusterStealthLLCProject
-Achievement 3 of CareerFoundry's curriculum, which calls to use SQL to solve business questions for Rockbuster Stealth LLC, a fictional movie rental company.
+Background: Rockbuster Stealth LLC is a movie rental company seeking to use its existing movie licenses to launch an online video rental service, in order to stay competitive with companies like Netflix and Amazon Prime. To achieve this goal, the company must understand its current business, from product insights, market information and more. 
 
-The "Rockbuster Stealth Data Analysis Project" asks students to imagine they are a data analyst in the business intelligence department. As an analyst in the business intelligence department, the data analysis student is asked to provide inventory/customer insights with SQL after loading the company's data into the relational database management system. 
+Context: This project was completed as part of the CareerFoundry's curriculum. 
+
+Topics covered were relational databases, SQL, data querying, filtering data, cleaning and summarizing data, joining tables, subqueries, common tables expressions. 
+
+This knowledge was used to solve business questions for Rockbuster Stealth LLC, a fictional movie rental company.
 
 Key questions include: 
 >Which movies contributed the most/least to revenue gain?
